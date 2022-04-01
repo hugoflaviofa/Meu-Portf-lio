@@ -5,6 +5,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a img {
+    border-radius: 5%;
+}
+
 span {
     font-style: oblique;
     font-weight: bold;
