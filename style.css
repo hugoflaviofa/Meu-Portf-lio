@@ -92,6 +92,28 @@ ul a, p a { /* estilo dos links */
     color:  red;
 }
 
+button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: 0px;
+    padding: 15px;
+    border-radius: 35px;
+    position: absolute;
+    top: 200px;
+    /*Gambiarra para centralização do botão*/
+    left: 50%;
+    margin-left: -100px;
+    /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+}
+
+button:hover { /*Passar o cursor do mouse por cima*/
+    font-size: 25px;
+    margin-left: -115px;
+    cursor: pointer;
+}
+
 h1 {
     font-family: 'Nunito', sans-serif;
     display: block;
