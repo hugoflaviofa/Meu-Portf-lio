@@ -1,0 +1,33 @@
+.nav-containner {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  width: 100vw;
+  height: 6vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.containner-logo {
+  /* border: solid 2px red; */
+  width: 60vw;
+
+  display: flex;
+  align-items: center;
+}
+
+.containner-logo img {
+  margin-left: 5vw;
+}
+
+.containner-options {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+  
+  /* border: solid 2px red; */
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
