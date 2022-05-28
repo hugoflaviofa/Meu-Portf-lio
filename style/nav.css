@@ -2,14 +2,13 @@
   background-color: rgb(29, 29, 29);
   color: white;
   width: 100vw;
-  height: 6vh;
+  height: 80px;
 
   display: flex;
   justify-content: space-between;
 }
 
 .containner-logo {
-  /* border: solid 2px red; */
   width: 60vw;
 
   display: flex;
@@ -25,8 +24,8 @@
   font-weight: bold;
   font-size: 0.9em;
   
-  /* border: solid 2px red; */
   width: 40vw;
+  min-width: 400px;
   display: flex;
   justify-content: space-around;
   align-items: center;

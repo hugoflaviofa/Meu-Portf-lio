@@ -1,0 +1,34 @@
+@media (max-width: 844px) {
+  .containner-logo {
+    width: 0;
+  }
+  .containner-options {
+    width: 40vw;
+  }
+
+  .main-containner {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    min-width: 0;
+  }
+  .main-containner {
+    /* border: var(--red); */
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containner-photo {
+    margin-bottom: 30px;
+  }
+  .containner-about {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    /* align-items: center; */
+  }
+  .containner-about h1 {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+}
