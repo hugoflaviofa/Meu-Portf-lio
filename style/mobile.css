@@ -19,7 +19,6 @@
     align-items: center;
   }
   .containner-photo {
-    margin-bottom: 30px;
   }
   .containner-about {
     margin: 0;
@@ -29,6 +28,5 @@
   }
   .containner-about h1 {
     font-size: 2em;
-    margin: 10px 0;
   }
 }

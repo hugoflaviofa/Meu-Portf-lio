@@ -8,12 +8,15 @@
   color: white;
   display: flex;
 
-  /* border: var(--red); */
+  /* border: var(--blue); */
+  gap: 25px;
 }
 
 .containner-photo {
+  /* border: var(--red); */
   display: flex;
   align-items: center;
+
 }
 
 .containner-photo img {
@@ -26,14 +29,15 @@
 }
 
 .containner-about {
+  /* border: var(--red); */
 
   font-size: 20px;
   width: 60vw;
-  padding: 0 5vw;
   
   display:  flex;
   flex-direction: column;
   justify-content: center;
+  gap: 10px;
 }
 
 .containner-about h3 {
