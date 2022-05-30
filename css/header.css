@@ -8,19 +8,16 @@
   color: white;
   display: flex;
 
-  /* border: var(--blue); */
   gap: 25px;
 }
 
 .containner-photo {
-  /* border: var(--red); */
   display: flex;
   align-items: center;
 
 }
 
 .containner-photo img {
-  /* border: var(--red); */
   background-color: var(--grey2);
   border-radius: 50%;
   margin: 0;
@@ -29,8 +26,6 @@
 }
 
 .containner-about {
-  /* border: var(--red); */
-
   font-size: 20px;
   width: 60vw;
   

@@ -1,7 +1,8 @@
-@media (max-width: 844px) {
+@media (max-width: 767px) {
   .containner-logo {
     width: 0;
   }
+
   .containner-options {
     width: 40vw;
   }
@@ -13,20 +14,46 @@
     min-width: 0;
   }
   .main-containner {
-    /* border: var(--red); */
     margin: 0;
     flex-direction: column;
     align-items: center;
   }
-  .containner-photo {
+  .containner-photo img {
+    width: 300px;
   }
   .containner-about {
     margin: 0;
     text-align: center;
     align-items: center;
-    /* align-items: center; */
   }
   .containner-about h1 {
     font-size: 2em;
+  }
+}
+
+.button-mobile {
+  display: none;
+}
+
+@media (max-width: 495px) {
+  .containner-photo img {
+    width: 200px;
+  }
+
+  .containner-options {
+    display: none;
+  }
+  .button-mobile {
+    display: flex;
+    background: none;
+    border: none;
+    margin-right: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hanburger {
+    width: 40px;
+    border-top: solid 3px white;
   }
 }
