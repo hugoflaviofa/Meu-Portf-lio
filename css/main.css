@@ -2,9 +2,9 @@
 @import './fonts.css';
 @import './body.css';
 @import './nav.css';
-@import './main.css';
+@import './header.css';
 @import './button.css';
-@import './root.css';
+@import './global.css';
 @import './containner-section-one.css';
 @import './mobile.css';
 /* @import 'style.css'; */
