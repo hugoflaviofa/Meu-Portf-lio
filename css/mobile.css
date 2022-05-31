@@ -43,6 +43,22 @@
   .containner-options {
     display: none;
   }
+
+  .add-nav-init{
+    height: 0px;
+  }
+
+  .add-nav-click {
+    background-color: var(--grey2);
+    height: 200px;
+    transition: 0.3s;
+  } 
+
+  /* .containner-options-click {
+    display: inline;
+    flex-direction: column;
+  } */
+
   .button-mobile {
     display: flex;
     background: none;
